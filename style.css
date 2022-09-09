@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.description {
+  margin: 2rem;
+  padding: 2rem;
+  border: solid;
+  border-radius: 20px;
+}
+
+.cardCombo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardCombo article {
+  background-color: gray;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 8rem;
+  max-width: 12rem;
+  padding: 4rem 5rem;
+  margin: 1rem 0;
+}
+
+.cardCombo img{
+  width: 70px;
+}
+
+.cardCombo p{
+  font-weight: bold;
+}
+
+.cardCombo a{
+  color: white;
+  background-color: rgb(161, 38, 38);
+  padding: .5rem;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .cardCombo{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.goalsSection{
+  padding: 2rem;
+  border: solid;
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+table{
+  border: solid;
+  padding: 1rem;
+  margin: 2rem;
+  width: 50vw;
+}
+
+
+table td{
+  padding: 1rem;
+  border: solid;
+}
+
+.rulesTable{
+  border-radius: 10px;
+  width: 60vw;
+  display: flex;
+  margin:2rem auto ;
+  padding: 1.5rem;
+}
+
+.rulesTable td{
+  border: none;
+}
+
+.rulesTable td:first-child{
+  border-right: 3px solid;
+}
